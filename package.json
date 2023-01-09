@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/ansarifarhan517/MicrosoftWebsiteClone/issues"
   },
-  "homepage": "https://github.com/ansarifarhan517/MicrosoftWebsiteClone#readme"
+  "homepage": "https://github.com/ansarifarhan517/MicrosoftWebsiteClone#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4",
+    "vite": "^4.0.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1"
+  }
 }
