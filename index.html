@@ -31,22 +31,22 @@
             </div>
             <div
                 class="features lg:space-x-5 absolute inset-0 bg-gray-200 w-fit -translate-x-96 px-2 lg:static lg:bg-white lg:w-auto lg:translate-x-0 lg:flex mt-12 lg:mt-0">
-                <div class="fitems"> Microsoft 365</div>
-                <div class="fitems"> Teams</div>
-                <div class="fitems"> Windows</div>
-                <div class="fitems"> Surface</div>
-                <div class="fitems"> Xbox</div>
-                <div class="fitems"> Support</div>
+                <div class="fitems hover:underline hover:underline-offset-8 cursor-pointer"> Microsoft 365</div>
+                <div class="fitems hover:underline hover:underline-offset-8 cursor-pointer"> Teams</div>
+                <div class="fitems hover:underline hover:underline-offset-8 cursor-pointer"> Windows</div>
+                <div class="fitems hover:underline hover:underline-offset-8 cursor-pointer"> Surface</div>
+                <div class="fitems hover:underline hover:underline-offset-8 cursor-pointer"> Xbox</div>
+                <div class="fitems hover:underline hover:underline-offset-8 cursor-pointer"> Support</div>
             </div>
         </div>
 
         <div class="flex space-x-2 lg:order-3">
-            <div class="hidden dropdown lg:block">All Microsoft</div>
+            <div class="hidden dropdown lg:block  hover:underline hover:underline-offset-8 cursor-pointer">All Microsoft</div>
             <div class="hidden search lg:block px-2">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-magnifying-glass cursor-pointer"></i>
             </div>
-            <div class="cart px-2"> <i class="fa-solid fa-cart-shopping fa-lg"></i></div>
-            <div class="account px-2"><i class="fa-regular fa-circle-user fa-lg"></i></div>
+            <div class="cart px-2"> <i class="fa-solid fa-cart-shopping fa-lg cursor-pointer"></i></div>
+            <div class="account px-2"><i class="fa-regular fa-circle-user fa-lg cursor-pointer"></i></div>
         </div>
     </nav>
     <div class="h-full w-full slider flex flex-col justify-center">
@@ -64,7 +64,8 @@
 
                         <button class="px-1 py-2 bg-[#0067b8] text-white mb-4 w-32">For one person</button>
 
-                        <a  class="text-black cursor-pointer font-semibold">For up to six people ></a>
+                        <a class="text-black hover:underline hover:underline-offset-8 cursor-pointer font-semibold">For
+                            up to six people <span>></span></a>
                     </div>
                 </div>
             </div>
@@ -80,7 +81,77 @@
             </div>
         </div>
     </div>
+    <hr class="mb-3 md:hidden">
 
+    <div class="promo md:!my-14 space-y-4 flex flex-col md:flex-row md:justify-center mb-3">
+        <div class="item flex flex-col items-center lg:mx-6 md:mx-4 space-y-3 mt-5 ">
+            <img src="./images/icon-LL-Windows-Logo-80x80.webp" alt="">
+            <span class="text-[#0067b8] underline cursor-pointer">Choose your Microsoft 365</span>
+        </div>
+        <div class="item flex flex-col items-center lg:mx-6 md:mx-4 space-y-3">
+            <img src="./images/surfacedevices.webp" alt="">
+            <span class="text-[#0067b8] underline cursor-pointer">Explore Surface Devices</span>
+        </div>
+        <div class="item flex flex-col items-center lg:mx-6 md:mx-4 space-y-3">
+            <img src="./images/xbox.webp" alt="">
+            <span class="text-[#0067b8] underline cursor-pointer">Buy Xbox games</span>
+        </div>
+        <div class="item flex flex-col items-center lg:mx-6 md:mx-4 space-y-3">
+            <img src="./images/icon-LL-Windows-Logo-80x80.webp" alt="">
+            <span class="text-[#0067b8] underline cursor-pointer">Get Windows 11</span>
+        </div>
+    </div>
+    <hr class="mb-5 md:hidden">
+
+    <div class="products h-full w-full grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-5 px-3">
+        <div class="pItems px-2 space-y-2">
+            <img src="./images/surfaceLaptop.avif" class="w-full cursor-pointer" alt="">
+            <button class="px-2 py-1 text-black bg-[#ffb900] font-semibold">New</button>
+            <h1 class="deviceTitle text-2xl font-semibold ">Surface Pro 9</h1>
+            <p class="mb-36"> The tablet flexibility you want and the laptop performance you need — all in one
+                ultra-portable device.
+            </p>
+            <p class="hover:underline hover:underline-offset-8 text-[#0067b8] !my-12 cursor-pointer">Learn more ></p>
+        </div>
+        <div class="pItems px-2 space-y-2">
+            <img src="./images/Surface-Laptop-Studio-01-CP.jpeg" class="w-full cursor-pointer" alt="">
+            <button class="px-2 py-1 text-black bg-[#ffb900] font-semibold">New</button>
+            <h1 class="deviceTitle text-2xl font-semibold ">Surface Laptop Studio</h1>
+            <p class="mb-36"> Flex your creative muscle on the most powerful Surface Laptop. Now available with Windows
+                11.
+            </p>
+            <p class="hover:underline hover:underline-offset-8 text-[#0067b8] !my-12 cursor-pointer">Learn more ></p>
+        </div>
+        <div class="pItems px-2 space-y-2">
+            <img src="./images/XboxSeriesX.jpeg" class="w-full cursor-pointer" alt="">
+            <button class="px-2 py-1 text-black bg-[#ffb900] font-semibold">New</button>
+            <h1 class="deviceTitle text-2xl font-semibold ">Xbox Series X</h1>
+            <p class="mb-36"> The tablet flexibility you want and the laptop performance you need — all in one
+                ultra-portable device.
+            </p>
+            <p class="hover:underline hover:underline-offset-8 text-[#0067b8] !my-12 cursor-pointer">Learn more ></p>
+        </div>
+        <div class="pItems px-2 space-y-2">
+            <img src="./images/Content-Card-Surface-Laptop-5-M1-Platinum-01-1.avif" class="w-full cursor-pointer" alt="">
+            <button class="px-2 py-1 text-black bg-[#ffb900] font-semibold">New</button>
+            <h1 class="deviceTitle text-2xl font-semibold ">Surface Laptop 5</h1>
+            <p class="mb-36"> Sophisticated style and multitasking speed powered by 12th Gen Intel® Core, with Windows
+                11.
+            </p>
+            <p class="hover:underline hover:underline-offset-8 text-[#0067b8] !my-12 cursor-pointer">Learn more ></p>
+        </div>
+
+    </div>
+    <div class=" grid-cols-1 space-y-8">
+        <img src="./images/gldn-XSS-Hero-Xbox-Series-S_VP2-859x540.jpeg" class="px-3 lg:px-7 w-full cursor-pointer" alt="">
+        <div class="px-4 lg:px-8">
+
+            <h1 class="deviceTitle text-2xl font-semibold mb-3">Xbox Series S</h1>
+            <p class="mb-4"> Next-gen performance in the smallest Xbox ever
+            </p>
+            <button class="px-3 py-2 bg-[#0067b8] text-white font-semibold cursor-pointer">Shop now</button>
+        </div>
+    </div>
 
 </body>
 
